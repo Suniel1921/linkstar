@@ -1,0 +1,12 @@
+.bannerDetails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    color: var(--brownColor);
+}
+
+.whatsappIcon{
+    font-size: 23px;
+    color: green;
+}
