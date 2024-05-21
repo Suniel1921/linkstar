@@ -12,10 +12,22 @@
 .right_service{
     width: 40%;
 }
-.globalImg{
+
+
+.globalImg {
     width: 100%;
     cursor: pointer;
-}
+    animation: rotate 101s linear infinite; 
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 .card{
     display: grid;

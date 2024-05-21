@@ -8,7 +8,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Banner = () => {
   const email = "info@linkstar.com.np";
   const phoneNumber = "+97714957047";
-  const whatsappNumber = '+977981234567'
+  const whatsappNumber = '+9779851337276'
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${whatsappNumber}`, "_blank");
@@ -26,7 +26,7 @@ const Banner = () => {
     <>
       <div className='bannerContainer global_flex'>
         <div className='bannerDetails'>
-          <p><FaMapMarkerAlt/> Khumaltar</p>
+          <p><FaMapMarkerAlt/>samakhusi,Kathmandu,Nepal</p>
           <p onClick={handleEmailClick}><MdEmail/> {email}</p>
           <p onClick={handlePhoneClick}><FaPhoneAlt/> {phoneNumber}</p>
         </div>
