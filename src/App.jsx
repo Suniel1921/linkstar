@@ -4,6 +4,7 @@ import Layout from './layout/Layout';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
+import WhyUs from './components/whyUs/WhyUs';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
+          <Route path='/why-us' element={<WhyUs/>}/>
         </Route>
       </Routes>
     </Router>

@@ -5,6 +5,7 @@ import About from '../about/About';
 import CoverBanner from '../../components/coverBanner/CoverBanner';
 import Services from '../../components/services/Services';
 import Accordian from '../../components/Banner/accordian/Accordian';
+import Testimonials from '../../components/testimonials/Testimonial';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
            <CoverBanner/>
            <Services/>
            <Accordian/>
+           <Testimonials/>
         </div>
     </div>
         
