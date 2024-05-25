@@ -12,7 +12,7 @@ const Home = () => {
     <>
     <div className="home_container">
         <div className="">
-            <Slider/>
+           <div className='slide_component'> <Slider/></div>
             <About/>
            <CoverBanner/>
            <Services/>
